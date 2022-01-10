@@ -1,4 +1,9 @@
-import 'assets/css/style.css';
+import "assets/css/style.css";
+
+import { Router, Route, Switch } from "react-router-dom";
+
+import MemberRoute from "components/Routes/MemberRoute";
+import GuestRoute from "components/Routes/GuestRoute";
 
 function App() {
   return (
